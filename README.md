@@ -22,8 +22,11 @@ There are two players, A and B. At the beginning of the game, each starts with 4
 then B, then A.... During a particular player’s turn, the player tosses a 6-sided die. If the player rolls a:
 
 1, then the player does nothing.
+
 2: then the player takes all coins in the pot.
+
 3: then the player takes half of the coins in the pot (rounded down).
+
 4,5,6: then the player puts a coin in the pot.
 
 
@@ -45,10 +48,15 @@ Since a random roll of a die is the ciritcal component of this simulation we wan
 and independence (Code Cell 4) tests just to verify (since this is a simulation class). 
 
 Code Cell 5 defines the variables that control the start of the game. We can change these as needed to test other game scenarios and perform a deeper analysis:
+
 player_starting_coins = 4
+
 pot_starting_coins = 2
+
 penalty = 1
+
 dice_sides = 6
+
 penalty_rolls = [4,5,6]
 
 Code Cell 6 runs a single game iteration printing out the results after each turn. This was used during development and verification of code logic and running it is not needed for the actual simulation.
