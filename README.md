@@ -1,22 +1,22 @@
-ISYE6644 – Team191 Final Project
-Distribution of a Coin and Dice Game Turns to Complete
+# ISYE6644 – Team191 Final Project
+## Distribution of a Coin and Dice Game Turns to Complete
 
 
-Set-Up:
+### Set-Up:
 
 The code for this project was developed in a jupyter lab environment (ipynb file) running Python version: 3.8.8
 The code requires the following Python base libraries: random, math, statistics, collections
 
 The following packages and specific versions were also used (other versions might work but haven't been tested):
 
-# Name                    Version 
+Name                    Version 
 matplotlib                3.6.2
 pandas                    1.5.1
 scipy                     1.9.3
 statsmodels               0.13.5
 
 
-Project Description:
+### Project Description:
 
 There are two players, A and B. At the beginning of the game, each starts with 4 coins, and there are 2 coins in the pot. A goes first,
 then B, then A.... During a particular player’s turn, the player tosses a 6-sided die. If the player rolls a:
@@ -33,7 +33,7 @@ We are trying to determine the expected number (and maybe even the distribution)
 I’m guessing that you can use “first-step” analysis to get the expected value. Simulation seems the easiest thing to do to get the entire distribution.
 
 
-User-Guide:
+### User-Guide:
 
 This project was completed using a single Jupyter notebook file (CoinAndDiceGame.ipynb).
 
