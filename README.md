@@ -1,4 +1,9 @@
 # ISYE6644 – Team191 Final Project
+
+Preview: 
+
+![alt text](https://github.com/aha1994/Game-Of-Chance-Simulation/blob/main/Photos/Distribution.png)
+
 ## Distribution of a Coin and Dice Game Turns to Complete
 
 
